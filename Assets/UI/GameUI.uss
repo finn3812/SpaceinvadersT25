@@ -1,0 +1,22 @@
+#hud {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#hud Label {
+    color: white;
+    font-size: 22px;
+}
+
+#message-label {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    -unity-text-align: middle-center;
+    color: white;
+    font-size: 36px;
+    -unity-font-style: bold;
+}

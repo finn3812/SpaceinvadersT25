@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=10b1a4e601455f04691a5a5ff353e3e0&amp;type=3#GameUI"/>
+    <ui:VisualElement name="hud">
+        <ui:Label name="lives-label" text="Liv: 5"/>
+        <ui:Label name="score-label" text="Point: 0"/>
+        <ui:Label name="wave-label" text="Bølge: 1"/>
+    </ui:VisualElement>
+    <ui:Label name="message-label" text=""/>
+</ui:UXML>
